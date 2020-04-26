@@ -7,5 +7,6 @@ COPY reverse-proxy.conf /etc/apache2/conf-enabled/reverse-proxy.conf
 COPY php-errors.ini /usr/local/etc/php/conf.d/
 COPY php-uploads.ini /usr/local/etc/php/conf.d/
 COPY index.php /var/www/html/
+COPY list.php /var/www/html/
 RUN mkdir /var/www/dl && chown www-data:www-data /var/www/dl
 VOLUME /var/www/dl
