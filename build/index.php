@@ -12,6 +12,9 @@ a:hover {
 }
 </style>
 </head><body>
+<nav>
+  <a href="/list.php">List</a>
+</nav>
 <form enctype="multipart/form-data" method="POST">
 <input name="file" type="file">
 <input type="submit" name="submit" value="go">
