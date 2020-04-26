@@ -60,7 +60,9 @@ function myScanDir($dir, $level, $rootLen)
 </head>
 
 <body>
-<a href="/index.php">Upload</a>
+<nav>
+  <a href="/index.php">Upload</a>
+</nav>
 <h1>Available Files</h1>
 <p style="font-family:'Courier New', Courier, monospace; font-size:small;">
 <?php
